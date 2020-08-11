@@ -1,0 +1,164 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+
+
+
+}
+#title{
+  background-color: #ff4c68;
+  color: white;
+  padding: 3% 15% 7%;
+
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+.sec-h3{
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.sec-p{
+  color: #8f8f8f;
+  font-weight: lighter;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+
+/* navigation bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+.nav-link{
+  font-weight: lighter;
+}
+
+/* download button */
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+/* iphone image */
+.iphone-img{
+  width: 70%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+
+.icons{
+  color: #ef8172;
+  margin-bottom: 1rem;
+
+}
+.icons:hover{
+  color: #ff4c68;
+}
+#features{
+position: relative;
+    padding: 7% 15%;
+background-color: white;
+text-align: center;
+}
+/* testimonials */
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color:white;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.dog-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.company-imgs{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/* cta section */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding:10% 15%;
+}
+
+.end-h3{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+
+}
+
+/* footer */
+#footer{
+  background-color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+.copyright-elmt{
+  color: #8f8f8f;
+  padding-top: %;
+}
+
+.contact-icons{
+  color: black;
+  padding: 10px;
+}
+
+
+
+
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+.iphone-img{
+  position: static;
+  transform: rotate(0);
+}
+}
